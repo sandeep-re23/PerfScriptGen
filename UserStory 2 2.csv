@@ -1,0 +1,8 @@
+endpoint,method,assertion,assertionValue,Substitution
+/store/order,POST,TRUE,orderId:quantity:status,null
+/store/order,GET,FALSE,null,orderId
+/store/inventory,GET,FALSE,null,null
+,,,,
+/store/order,POST,TRUE,orderId:quantity:status,null
+/store/order,GET,FALSE,null,orderId
+end,,,,
